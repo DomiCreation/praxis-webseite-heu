@@ -80,37 +80,17 @@ header {
 .brand {
   display: flex;
   align-items: center;
-  gap: 12px;
-  min-width: 270px;
+  min-width: 0;
+  flex: 0 1 auto;
 }
 
 .practice-logo {
-  width: 64px;
-  height: 64px;
+  display: block;
+  height: 58px;
+  width: auto;
+  max-width: min(400px, 48vw);
   object-fit: contain;
-  flex-shrink: 0;
-  border-radius: 9px;
-}
-
-.brand > span {
-  display: block;
-  margin-top: 0;
-  color: var(--muted);
-  font-size: 0.78rem;
-}
-
-.brand strong {
-  display: block;
-  font-size: 1rem;
-  line-height: 1.2;
-  letter-spacing: -0.01em;
-  color: var(--ink);
-}
-
-.brand > span > span {
-  display: block;
-  font-size: 0.8rem;
-  margin-top: 3px;
+  object-position: left center;
 }
 
 nav {
@@ -794,7 +774,12 @@ dialog::backdrop {
   }
 
   .brand {
-    min-width: 240px;
+    min-width: 0;
+  }
+
+  .practice-logo {
+    height: 50px;
+    max-width: min(320px, 36vw);
   }
 
   .nav {
@@ -898,10 +883,6 @@ dialog::backdrop {
     min-height: 340px;
   }
 
-  .brand > span {
-    display: block;
-  }
-
   .hero-photo {
     border-top-left-radius: 65px;
   }
@@ -943,21 +924,8 @@ dialog::backdrop {
   }
 
   .practice-logo {
-    width: 50px;
-    height: 50px;
-  }
-
-  .brand strong {
-    font-size: 0.88rem;
-  }
-
-  .brand > span {
-    display: block;
-  }
-
-  .brand > span > span {
-    display: block;
-    font-size: 0.72rem;
+    height: 40px;
+    max-width: calc(100vw - 120px);
   }
 
   .nav {
