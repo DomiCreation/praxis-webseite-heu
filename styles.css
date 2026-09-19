@@ -1,13 +1,13 @@
 :root {
   --ink: #102b34;
   --muted: #5d6f75;
-  --teal: #087c7a;
-  --teal-dark: #05615f;
-  --mint: #dff3ef;
+  --teal: #1fa58c;
+  --teal-dark: #17826e;
+  --mint: #e4f4f1;
   --mist: #f2f8f7;
   --line: #d8e5e3;
   --white: #ffffff;
-  --highlight: #75d2c7;
+  --highlight: #74d2be;
   --shadow: 0 24px 70px rgba(20, 67, 72, 0.13);
 }
 
@@ -623,7 +623,7 @@ section[id],
 .map-card::after {
   content: "";
   position: absolute;
-  border: 1px solid rgba(8, 124, 122, 0.16);
+  border: 1px solid rgba(31, 165, 140, 0.16);
   border-radius: 50%;
 }
 
@@ -650,7 +650,7 @@ section[id],
   border-radius: 50% 50% 50% 0;
   background: var(--teal);
   transform: rotate(-45deg);
-  box-shadow: 0 16px 30px rgba(8, 124, 122, 0.25);
+  box-shadow: 0 16px 30px rgba(31, 165, 140, 0.25);
 }
 
 .pin::after {
