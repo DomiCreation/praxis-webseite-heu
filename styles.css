@@ -88,9 +88,10 @@ header {
   display: block;
   height: 58px;
   width: auto;
-  max-width: min(400px, 48vw);
+  max-width: min(430px, 52vw);
   object-fit: contain;
   object-position: left center;
+  background: transparent;
 }
 
 nav {
@@ -779,7 +780,7 @@ dialog::backdrop {
 
   .practice-logo {
     height: 50px;
-    max-width: min(320px, 36vw);
+    max-width: min(370px, 42vw);
   }
 
   .nav {
